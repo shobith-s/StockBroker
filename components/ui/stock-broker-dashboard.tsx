@@ -192,7 +192,7 @@ export function StockBrokerDashboard() {
     // Login Screen
     if (!isLoggedIn) {
         return (
-            <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 via-white to-purple-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 p-4">
+            <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 via-white to-purple-50 p-4">
                 <Card className="w-full max-w-md relative overflow-hidden">
                     <BorderBeam size={250} duration={12} delay={9} />
                     <CardHeader className="space-y-1">
@@ -229,9 +229,9 @@ export function StockBrokerDashboard() {
 
     // Dashboard Screen
     return (
-        <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
+        <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">
             {/* Header */}
-            <header className="border-b bg-white/50 dark:bg-gray-900/50 backdrop-blur-sm sticky top-0 z-50">
+            <header className="border-b bg-white/50 backdrop-blur-sm sticky top-0 z-50">
                 <div className="container mx-auto px-4 py-4 flex items-center justify-between">
                     <div className="flex items-center gap-3">
                         <Activity className="h-8 w-8 text-primary" />
@@ -269,7 +269,7 @@ export function StockBrokerDashboard() {
                                     <div className="flex items-end justify-between">
                                         <div>
                                             <div className="text-4xl font-bold">${portfolioValue.toFixed(2)}</div>
-                                            <div className={`flex items-center gap-1 mt-2 text-sm font-medium ${portfolioChange >= 0 ? 'text-green-600 dark:text-green-400' : 'text-red-600 dark:text-red-400'
+                                            <div className={`flex items-center gap-1 mt-2 text-sm font-medium ${portfolioChange >= 0 ? 'text-green-600' : 'text-red-600'
                                                 }`}>
                                                 {portfolioChange >= 0 ? <TrendingUp className="h-4 w-4" /> : <TrendingDown className="h-4 w-4" />}
                                                 <span>
@@ -331,7 +331,7 @@ export function StockBrokerDashboard() {
                                             </CardHeader>
                                             <CardContent className="space-y-3">
                                                 {/* Price Change */}
-                                                <div className={`flex items-center gap-1 text-sm font-medium ${isPositive ? 'text-green-600 dark:text-green-400' : 'text-red-600 dark:text-red-400'
+                                                <div className={`flex items-center gap-1 text-sm font-medium ${isPositive ? 'text-green-600' : 'text-red-600'
                                                     }`}>
                                                     {isPositive ? <TrendingUp className="h-4 w-4" /> : <TrendingDown className="h-4 w-4" />}
                                                     <span>
