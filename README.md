@@ -156,32 +156,6 @@ setInterval(() => {
 }, 1000) // Change this value
 ```
 
-## 🎯 Future Enhancements
-
-- [ ] Real stock API integration (Alpha Vantage, Yahoo Finance)
-- [ ] Backend database for persistent storage
-- [ ] User authentication with NextAuth.js
-- [ ] Price alerts and notifications
-- [ ] Advanced analytics (Moving averages, RSI, MACD)
-- [ ] Stock comparison charts
-- [ ] News integration
-- [ ] Export data as CSV
-- [ ] Dark mode toggle
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📞 Support
-
-For issues or questions, please open an issue on [GitHub](https://github.com/shobith-s/StockBroker/issues).
-
----
-
 **Built with ❤️ using Next.js, TypeScript, and Tailwind CSS**
 
 **Live Demo:** [https://stock-broker-dashboard-beryl.vercel.app/](https://stock-broker-dashboard-beryl.vercel.app/)
