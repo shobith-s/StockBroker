@@ -1,29 +1,29 @@
-# 📈 Stock Broker Dashboard
+# Stock Broker Dashboard
 
 A modern, real-time stock tracking dashboard built with Next.js 15, TypeScript, and Tailwind CSS v4. Track your favorite stocks with interactive charts, price history, and live updates.
 
-## 🚀 Live Demo
+## Live Demo
 
 **Production:** [https://stock-broker-dashboard-beryl.vercel.app/](https://stock-broker-dashboard-beryl.vercel.app/)
 
-## ✨ Features
+## Features
 
 ### Core Functionality
-- **📧 Email-Based Login** - Simple authentication (no password required)
-- **📊 Real-Time Price Updates** - Stock prices update every second
-- **🔔 Stock Subscription** - Subscribe to GOOG, TSLA, AMZN, META, NVDA
-- **👥 Multi-User Support** - Independent portfolios per user
-- **💾 Session Persistence** - Data saved in browser localStorage
+- ** Email-Based Login** - Simple authentication (no password required)
+- ** Real-Time Price Updates** - Stock prices update every second
+- ** Stock Subscription** - Subscribe to GOOG, TSLA, AMZN, META, NVDA
+- ** Multi-User Support** - Independent portfolios per user
+- ** Session Persistence** - Data saved in browser localStorage
 
 ### Advanced Features
-- **📈 Interactive Charts** - Sparkline and detailed area charts with Recharts
-- **⏱️ Time Range Filters** - View price history by Day (24h), Month (30d), or Year (365d)
-- **📉 Price History** - Tracks up to 100 data points per stock
-- **📊 24h High/Low Tracking** - Automatic monitoring of price extremes
-- **💼 Portfolio Summary** - Total value, gain/loss, and performance metrics
-- **🎨 Premium UI** - Gradient backgrounds, animations, and modern design
+- ** Interactive Charts** - Sparkline and detailed area charts with Recharts
+- ** Time Range Filters** - View price history by Day (24h), Month (30d), or Year (365d)
+- ** Price History** - Tracks up to 100 data points per stock
+- ** 24h High/Low Tracking** - Automatic monitoring of price extremes
+- ** Portfolio Summary** - Total value, gain/loss, and performance metrics
+- ** Premium UI** - Gradient backgrounds, animations, and modern design
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Framework:** Next.js 15 (App Router)
 - **Language:** TypeScript
@@ -33,7 +33,7 @@ A modern, real-time stock tracking dashboard built with Next.js 15, TypeScript, 
 - **Icons:** Lucide React
 - **Animations:** Framer Motion
 
-## 📦 Installation
+##  Installation
 
 ```bash
 # Clone the repository
@@ -49,7 +49,7 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) to view the dashboard.
 
-## 🚀 Deployment
+##  Deployment
 
 ### Deploy to Vercel (Recommended)
 
@@ -66,7 +66,7 @@ vercel --prod
 
 Or deploy via [Vercel Dashboard](https://vercel.com/new) by connecting your GitHub repository.
 
-## 📖 Usage
+##  Usage
 
 ### Getting Started
 
@@ -95,7 +95,7 @@ Each user's data is isolated in browser localStorage:
 - Each user sees only their subscribed stocks
 - Data persists until logout or cache clear
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 STB/
@@ -115,7 +115,7 @@ STB/
 └── public/                   # Static assets
 ```
 
-## 🎨 Features in Detail
+##  Features in Detail
 
 ### Price History Tracking
 - Stores up to 100 historical price points per stock
@@ -134,7 +134,7 @@ STB/
 - Stock count tracking
 - Real-time performance indicators
 
-## 🔧 Configuration
+##  Configuration
 
 ### Supported Stocks
 
